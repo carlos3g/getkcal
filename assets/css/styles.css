@@ -14,13 +14,13 @@ header {
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .form-group label {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: 'Montserrat Semibold', sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .form-group input,
@@ -32,8 +32,8 @@ header {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 14px;
-  padding: 0 15px;
+  font-size: 1.4rem;
+  padding: 0 1.5rem;
   outline: none;
   transition: border-color 0.2s ease-in;
 }
@@ -49,24 +49,24 @@ header {
   border: 0;
   height: 45px;
   color: #1A1A1A;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: 'Montserrat Bold', sans-serif;
   cursor: pointer;
 }
 
 .form-group:last-child {
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .result-container {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .result-content {
-  margin-top: 10px;
+  margin-top: 1rem;
   background: #1A1A1A;
   border-radius: 5px;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .result-content ul {
@@ -74,10 +74,10 @@ header {
 }
 
 .result-content ul li {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   font-family: 'Montserrat Bold', sans-serif;
-  line-height: 30px;
+  line-height: 3rem;
 }
 
 .result-content ul li strong {
