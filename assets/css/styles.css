@@ -1,5 +1,5 @@
 .container {
-  width: 550px;
+  width: 42vw;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ header {
 
 .form-group input,
 .form-group select {
-  background: #1A1A1A;
+  background: #1a1a1a;
   width: 100%;
   height: 45px;
   border: 1px solid transparent;
@@ -40,15 +40,15 @@ header {
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #FF7373;
+  border-color: #ff7373;
 }
 
 .form-group button {
-  background-image: linear-gradient(-90deg, #FF7373 0%, #FDDB33 100%);
+  background-image: linear-gradient(-90deg, #ff7373 0%, #fddb33 100%);
   border-radius: 5px;
   border: 0;
   height: 45px;
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-size: 1.6rem;
   font-family: 'Montserrat Bold', sans-serif;
   cursor: pointer;
@@ -64,7 +64,7 @@ header {
 
 .result-content {
   margin-top: 1rem;
-  background: #1A1A1A;
+  background: #1a1a1a;
   border-radius: 5px;
   padding: 1.5rem;
 }
@@ -81,5 +81,11 @@ header {
 }
 
 .result-content ul li strong {
-  color: #FF7373;
+  color: #ff7373;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 70vw;
+  }
 }
