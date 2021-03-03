@@ -5,7 +5,7 @@
     getkcal
   </h1>
   <blockquote>
-    Get information that will help you with your diet and training
+    A useful calorie calculator
   </blockquote>
   <div id="badges">
     <img src="https://img.shields.io/github/repo-size/carlos3g/getkcal?color=4000FF" alt="repo-size" />
